@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yay! 💖</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #ff4d4d, #ff9999);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            flex-direction: column;
+            color: white;
+        }
+        
+        .content {
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: bounce 1s infinite alternate;
+        }
+        
+        p {
+            font-size: 1.8rem;
+            margin-top: 0;
+            opacity: 0.9;
+        }
+        
+        .hearts {
+            font-size: 3rem;
+            margin-top: 20px;
+            animation: float 3s infinite ease-in-out;
+        }
+        
+        @keyframes bounce {
+            from { transform: translateY(0px); }
+            to { transform: translateY(-20px); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Yay! 🎉💖</h1>
+        <p>You've made me the happiest person! 💕</p>
+        <div class="hearts">
+            💖💕💓💗💘💞💝
+        </div>
+    </div>
+</body>
+</html>
